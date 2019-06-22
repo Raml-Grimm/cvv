@@ -82,11 +82,11 @@ class StripeChecker():
         time.sleep(0.6)
         while True:
             print("                   [SELECT OPTIONS]")
-            print("┃          [1]    =   Merchant 1 (Mid Charge)       ┃")
-            print("┃          [2]    =   Merchant 2 (Maintenance)      ┃ ")
+            print("┃        [1]    =   Merchant 1 (Mid Charge)       ┃")
+            print("┃        [2]    =   Merchant 2 (Maintenance)      ┃ ")
             print("")
             try:
-                option = str(input(colorama.Fore.LIGHTRED_EX + '[kschecker] >>> ' + colorama.Fore.RESET))
+                option = str(input(colorama.Fore.LIGHTRED_EX + '[Select] > ' + colorama.Fore.RESET))
             except KeyboardInterrupt:
                 break   
 
